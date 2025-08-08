@@ -2,19 +2,19 @@
   <body>
     <h1>CanCinerator</h1>
     <h2>The Can Wars toolkit</h2>
-    <h7>[Y] Fenn's Gaming Dojo Co., Ltd.</h7>
+    <h6>[Y] Fenn's Gaming Dojo Co., Ltd.</h6>
     <form>
-    <label for="pow">[POW] How many studs shall your can bonk? </label><input id="pow" type="text"><br>
-    <label for="ran">[RAN] How many studs shall your can reach?</label><input id="ran" type="text"><br>
-    <label for="cd">[CD] How many seconds shall you wait to throw again?</label><input id="cd" type="text"><br>
-    <label for="wei">[WEI] How much shall your can weigh? (1 is Beans' default weight, about 1/2 kg.)</label><input id="wei" type="text"><br>
-    <label for="dsp">[DSP] When your can touches ground, how long until it despawns?</label><input id="dsp" type="text"><br>
-    <label for="texture">Upload the texture of your can. (Must be .png and under 100MB)</label><input id="texture" type="file" format=".png"><br>
-    <label for="model">Upload the model of your can. (Must be .obj and under 1GB)</label><input id="model" type="file" format=".obj"><br>
-    <label for="action">Upload the action of your can. (Must be .zip with a script.lua file and under 5GB)</label><input id="script" type="file" format=".lua"><br>
-    <label for="desc">Describe your can.</label><input id="desc" type="text"><br>
+    <label for="pow">[POW] How many studs shall your can bonk? </label><input id="pow" type="number"><br>
+    <label for="ran">[RAN] How many studs shall your can reach?</label><input id="ran" type="number"><br>
+    <label for="cd">[CD] How many seconds shall you wait to throw again?</label><input id="cd" type="number"><br>
+    <label for="wei">[WEI] How much shall your can weigh? (1 is Beans' default weight, about 1/2 kg.)</label><input id="wei" type="number"><br>
+    <label for="dsp">[DSP] When your can touches ground, how long until it despawns?</label><input id="dsp" type="number"><br>
+    <label for="texture">Upload the texture of your can. (Must be .png and under 100MB)</label><input id="texture" type="file" accept=".png"><br>
+    <label for="model">Upload the model of your can. (Must be .obj and under 1GB)</label><input id="model" type="file" accept=".obj"><br>
+    <label for="action">Upload the action of your can. (Must be .zip with a script.lua file and under 5GB)</label><input id="action" type="file" accept=".zip"><br>
+    <label for="desc">Describe your can.</label><textarea id="desc"></textarea><br>
     <label for="actname">Name the can's actions</label><input id="actname" type="text"><br>
-    <label for="peh">Is this can passive, activateable via E, or a hybrid? (P=1, E=2, H=3)</label><input id="peh" type="num" min="1" max="3"><br>
+    <label for="peh">Is this can passive, activateable via E, or a hybrid? (P=1, E=2, H=3)</label><input id="peh" type="number" min="1" max="3"><br>
     <label for="name">And finally, name your precious creation.</label><input id="name" type="text"><br>
     <input id="submit" type="submit">
     </form>
